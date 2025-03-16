@@ -1,0 +1,33 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* Animaciones y Efectos Visuales */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+}
+.hero h1 {
+  text-shadow: 10px 10px 10px #000;
+  font-weight: bold;
+}
