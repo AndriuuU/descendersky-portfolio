@@ -31,3 +31,19 @@ body {
   text-shadow: 10px 10px 10px #000;
   font-weight: bold;
 }
+.text-responsive {
+  font-size: 4vw;
+}
+
+@media (max-width: 768px) {
+  .text-responsive {
+      font-size: 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-responsive {
+      font-size: 8vw;
+  }
+}
+
